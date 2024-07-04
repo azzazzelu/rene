@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+.container {
+    margin: auto;
+    padding: 100px 0 0 0 ;
+    width: 100%;
+}
+
+.body_loyal {
+    margin-top: 60px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.container h2 {
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    align-items: center;
+    max-width: 470px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.con_box{
+    width: 100%;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+}
+
+.box_loyalty{
+    display: inline-block;
+    width: 360px;
+    height: 210px;
+    border: solid black 1px;
+}
+
+.sis {
+    display: inline-block;
+    width: 360px;
+    border: solid #e1e1e1 1px;
+    padding: 15px 15px;
+}
+
+.for_price {
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.hed_text {
+    font-size: 30px;
+    text-align: center;
+}
+
+.under_text {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Playfair Display', serif;
+}
+
+.details {
+
+    display: block;
+    max-width: 850px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.5);
+    border: solid rgb(232, 232, 232) 1px;
+    border-right: none;
+    border-left: none;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+
+
+.details[open]::after {
+    transform: rotate(45deg);
+}
+
+.details[open] .details__content {
+    margin-top: 0;
+}
+
+.details__title {
+    background: #fff;
+    border-radius: 5px;
+    padding: 12px 24px;
+    font-size: 20px;
+    cursor: pointer;
+    list-style: none;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.details__content {
+    z-index: 0;
+    position: relative;
+    padding: 32px;
+    font-size: 18px;
+    margin-top: -100px;
+    transition: .3s;
+}
+
+.details__content p:last-child {
+    margin-bottom: 0;
+}
+
+.details__content p:first-child {
+    margin-top: 0;
+}

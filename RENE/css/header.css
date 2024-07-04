@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+header{
+    font-family: 'Playfair Display', serif;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+
+}
+
+.h_item a, .h_item:link a, .h_item:visited a{
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+}
+
+.h_item{
+    color: rgb(43, 43, 43);
+    margin: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.h_item svg{
+    padding-top: 4px;
+}
+
+.catalog{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.catalog svg{
+    padding: 0;
+}
+
+.h_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    height: 104px;
+    width: 100%;   
+}
+.h_menu_l{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
+}
+.h_menu_r{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 20px;
+}
+.h_menu_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h_logo{
+    font-size: 30px;
+    color: rgb(43, 43, 43);
+    text-decoration: none;
+}
+
+
+.h_client{
+    display: none;
+    padding: 30px;
+    gap: 100px;
+}
+
+.h_catalog{
+    width: 250px;
+    position: absolute;
+    background-color: #fff;
+    padding: 30px;
+    min-height: 100vh;
+    display: none;
+    z-index: 2;
+}
+.h_overlay{
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100%;
+}
+
+    p {
+        margin-top: 0;
+        margin-bottom: 0rem;
+      }
+.h_link{
+font-size: 19px;
+}

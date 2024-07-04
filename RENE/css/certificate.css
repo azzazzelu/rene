@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+.gift{
+    height: 1000px;
+    padding-top:100px ;
+    width: 1610px;
+    margin: 0 auto;
+
+}
+body {
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
+}
+.wrap_gift {
+    width: 350px;
+    height: 700px;
+    background: rgb(242, 242, 242);
+    padding: 20px 20px;
+}
+
+.gift_text {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.gift_catalog {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+.top_text {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.under_top_text {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+.bottom {
+    font-size: 25px;
+    font-weight: 300;
+    padding-top: 425px;
+    text-align: right;
+}
+
+.wrap_gift:hover .button {
+    display: block;
+}
+
+.wrap_gift:hover .bottom {
+    display: none;
+
+}
+.button {
+    display: none;
+    background: white;
+    width: 250px;
+    height: 100px;
+    margin-top: 400px;
+    margin-left: 75px;
+    border: none;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+.button_text {
+    font-size: 15px;
+    font-weight: 300;
+
+}
+.for_price {
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Playfair Display', serif;
+}
+
+.composition {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Playfair Display', serif;
+}
+.block {
+    width: 400px;
+    height: 700px;
+    gap: 20px;
+}

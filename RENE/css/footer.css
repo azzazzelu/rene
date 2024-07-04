@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+footer {
+    margin-top: 100px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+footer a {
+    color: rgb(43, 43, 43);
+    text-decoration: none;
+}
+
+.f_message {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+}
+
+.f_message a {
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+
+.f_main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    max-width: 1200px;
+    margin: 50px auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.f_client {
+    display: flex;
+
+}
+
+.f_client_item {
+    padding: 20px 0;
+    height: 100%;
+    text-align: start;
+}
+.f_item_a{
+    padding: 8px;    
+}
+.f_client_item a {
+    font-size: 20px;
+}
+
+.f_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f_logo_item {
+    font-size: 30px;
+    color: rgb(43, 43, 43);
+    text-decoration: none;
+}
+.f_email{
+    display: block;
+}
+
+.f_email form{
+    display: block;
+}
+
+.f_form_btn{
+    background-color: #fff;
+    height: 39px;
+    width: 90px;
+    border: 1px solid #ccc;
+}
+.f_form_email{
+    background-color: #fff;
+    height: 33px;
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+.f_form_label{
+   font-size: 12px;    
+}
+.footer_logo{
+    background: grey;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    position:relative;
+    top:55px;
+    left:80px;
+}
+.phone_number{
+    font-size: 22px;
+}

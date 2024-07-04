@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+.main_basket{
+    padding-top: 100px;
+    margin: 0 auto;
+    width: 100%;
+}
+tr{
+    display: flex;
+    gap: 100px;
+    
+}
+body{
+    font-family: 'Playfair Display', serif;
+}

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
+}
+
+.platya {
+    padding-top: 100px;
+    max-width: 1610px;
+    margin: 0 auto;
+
+}
+
+.block {
+    width: 400px;
+    height: 700px;
+    margin-right: 70px;
+    margin-bottom: 150px;
+
+}
+
+.for_price {
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Playfair Display', serif;
+}
+
+.composition {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Playfair Display', serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+}
+
+.title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 42px;
+}
+.button{
+    border: solid black 2px;
+    padding: 10px 10px;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    top: 25px;
+}

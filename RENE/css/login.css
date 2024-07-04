@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+/* Авторизация */
+.login{
+    margin: 0 auto;
+}
+.enter{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+.log {
+    display: flex;
+    padding-top: 105px;
+}
+.size15{
+    font-size: 15px;
+    color: gray;
+    font-family: 'Playfair Display', serif;
+}
+.input{
+    width: 330px;
+    height: 50px;
+}
+.btn_enter{
+    background-color: black;
+    color: white;
+   padding: 20px 139px;
+    margin-top: 20px;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+}
+.under_form{
+ 
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+}
+.size14{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Регистрация */
+
+.input_reg{
+    width: 565px;
+    height: 50px;
+}
+.checked{
+    display: flex;
+}
+.presonal_data{
+    text-decoration:underline;
+}
+.reg {
+    padding-top: 150px;
+    display: flex;
+    height: 1000px;
+}
+.btn_enter_reg{
+    background-color: black;
+    color: white;
+   padding: 20px 194px;
+    margin-top: 20px;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+}
+.bad_request{
+    color: red;
+    text-align: center;
+    font-size: 14px;
+}
+.good_request{
+    color: green;
+    text-align: center;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+input{
+    font-family: 'Playfair Display', serif;
+}
